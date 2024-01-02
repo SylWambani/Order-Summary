@@ -11,7 +11,7 @@ body {
 }
 .main-container {
   min-height: 100vh;
-  padding: 30px;
+  padding: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -138,6 +138,7 @@ body {
   }
   .main-container {
     max-width: 1440px;
+
     flex-basis: 100%;
   }
   .mobile-pattern {
@@ -151,7 +152,7 @@ body {
     top: 0;
   }
   .container {
-    flex-basis: 50%;
+    flex-basis: 10%;
   }
   .bottom-section {
     padding: 40px;
