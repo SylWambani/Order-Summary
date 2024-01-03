@@ -30,6 +30,7 @@ body {
   visibility: hidden;
 }
 .container {
+  flex-basis: 0;
   position: absolute;
   border-radius: 20px;
   background-color: #ffffff;
@@ -138,7 +139,6 @@ body {
   }
   .main-container {
     max-width: 1440px;
-
     flex-basis: 100%;
   }
   .mobile-pattern {
@@ -150,9 +150,6 @@ body {
     visibility: visible;
     position: absolute;
     top: 0;
-  }
-  .container {
-    flex-basis: 10%;
   }
   .bottom-section {
     padding: 40px;
